@@ -5,12 +5,20 @@
     {
       "src": "godhand.apk",
       "use": "@vercel/static"
+    },
+    {
+      "src": "GODFIX.apk",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/godhand.apk",
       "dest": "/godhand.apk"
+    },
+    {
+      "src": "/GODFIX.apk",
+      "dest": "/GODFIX.apk"
     }
   ]
 }
