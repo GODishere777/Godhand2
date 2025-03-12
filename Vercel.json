@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "builds": [],
+  "public": true,
+  "builds": [
+    {
+      "src": "godhand.apk",
+      "use": "@vercel/static"
+    }
+  ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/godhand.apk",
       "dest": "/godhand.apk"
     }
   ]
