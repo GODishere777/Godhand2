@@ -1,5 +1,9 @@
 {
+  "version": 2,
+  "builds": [
+    { "src": "godhand.apk", "use": "@vercel/static" }
+  ],
   "routes": [
-    { "src": "/(.*)", "dest": "/$1" }
+    { "src": "/godhand.apk", "dest": "godhand.apk" }
   ]
 }
